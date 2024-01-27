@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    border: none;
+    background: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #ccc6c6;
+}
+
+.header {
+    width: 1440px;
+    height: 888px;
+}
+
+.section_logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo1 {
+    color: #10B981;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-left: 85px;
+}
+
+.logo2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.search_input {
+    width: 322px;
+    height: 63px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
+    margin-left: 239px;
+    display: flex;
+    align-items: center;
+}
+
+.search_text {
+    color: var(--Text-20, rgba(41, 41, 48, 0.20));
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 32px;
+    cursor: pointer;
+}
+
+.rectangle_search {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #10B981;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.svg_search {
+    margin-left: -29.5px;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.button_basket {
+    width: 229px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #10B981;
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button_basket_text {
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 15px;
+}
+
+.button_basket_svg {
+    margin-left: 36px;
+}
+
+.button_login {
+    width: 247px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #10B981;
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button_login_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 15px;
+}
+
+.button_login_svg {
+    margin-left: 36px;
+}
+
+.section_nav {
+    width: 1440px;
+    height: 81px;
+    background-color: #10B981;
+    margin-top: 63px;
+    align-items: center;
+    display: flex;
+}
+
+.header-nav {
+    display: flex;
+    gap: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-nav-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.section_header_info {
+    display: flex;
+    padding-left: 85px;
+}
+
+.section_header_info_left {
+    width: 675px;
+    background: #FFF;
+}
+
+h1 {
+    width: 599px;
+    height: 156px; 
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 126px;
+}
+
+.text_left {
+    width: 549px;
+    height: 70px; 
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 166.667% */
+    margin-top: 30px;
+}
+
+.button_buy_now {
+    width: 263px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #10B981;
+    box-shadow: 0px 25px 50px 0px rgba(132, 94, 194, 0.15);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 22px 82px;
+    margin-top: 52px;
+    cursor: pointer;
+}
+
+.sum_img {
+    display: flex;
+    gap: -23px;
+}
+
+.section_header_info_right {
+    flex-grow: 1;
+    background: #e2e6db;
+}
+
