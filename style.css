@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Montserrat';
-    background-color: #ccc6c6;
+    background-color: #FFFFFF;
 }
 
 .header {
@@ -220,11 +220,42 @@ h1 {
 
 .sum_img {
     display: flex;
-    gap: -23px;
+    margin-top: 112px;
+}
+
+.ellipse {
+    margin-left: -23px;
+}
+
+.text_ellipse {
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 134.615% */
+    margin-left: 15px;
 }
 
 .section_header_info_right {
     flex-grow: 1;
-    background: #e2e6db;
+    background: #FFFFFF;
 }
 
+.header_star1 {
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.header_image6 {
+    width: 280px;
+    height: 299px;
+    flex-shrink: 0;
+    margin-top: 117px;
+    margin-left: 175px;
+}
+
+.header_star2 {
+    margin-top: 84px;
+    margin-left: 477px;
+}
