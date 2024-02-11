@@ -1,0 +1,516 @@
+
+@import url(./button.css);
+
+:root {
+    --first_main_color: #10B981;
+    --second_main_color: #ffffff;
+    --first_section_color: #ffffff;
+    --second_section_color: #845EC2;
+    --first_text_color: #000000;
+    --second_text_color: #ffffff;
+    --background_earphone: #ECFEF4;
+}
+
+*{
+    margin: 0;
+    border: none;
+    background: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: #FFFFFF;
+}
+
+.header {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section_logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.section_logo__left {
+    display: flex;
+    align-items: center;
+}
+
+.section_logo__left_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.section_logo__left_logo1 {
+    color: #10B981;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.section_logo__left_logo2 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.section_logo__left_search_input {
+    display: flex;
+    align-items: center;
+    padding: 10px 18px 10px 32px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 50px 0px rgba(46, 131, 158, 0.07);
+    margin-left: 239px;
+}
+
+.section_logo_left_search_text {
+    width: 322px;
+    height: 63px;
+    color: var(--Text-20, rgba(41, 41, 48, 0.20));
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 32px;
+}
+
+.section_logo__left_rectangle_search {
+    width: 38px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #10B981;
+    margin-left: 40px;
+}
+
+.section_logo__left_svg_search {
+    margin-left: -29.5px;
+    cursor: pointer;
+}
+
+.section_logo__right_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.section_logo__right_button_basket {
+    width: 229px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #10B981;
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
+    margin-left: 64px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section_logo__right_button_basket_text {
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 15px;
+}
+
+.section_logo__right_button_basket_svg {
+    margin-left: 36px;
+}
+
+.section_logo__right_button_login {
+    width: 247px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #10B981;
+    box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.10);
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section_logo__right_button_login_text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 60px; /* 375% */
+    margin-left: 15px;
+}
+
+.section_logo__right_button_login_svg {
+    margin-left: 36px;
+}
+
+.section_nav {
+    max-width: 1440px;
+    min-height: 81px;
+    background-color: #10B981;
+    margin-top: 63px;
+    display: flex;
+    align-items: center;
+}
+
+.section_nav__header-nav {
+    display: flex;
+    gap: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_nav__header-nav-text {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.section_header_info {
+    display: flex;
+    padding: 0 85px;
+}
+
+.section_header_info__left {
+    max-width: 675px;
+    background: #FFF;
+}
+
+h1 {
+    max-width: 599px;
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 126px;
+}
+
+.section_header_info__text_left {
+    max-width: 549px;
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 166.667% */
+    margin-top: 30px;
+}
+
+.section_header_info__button_buy_now {
+    margin-top: 65px;
+}
+
+.section_header_info__sum_img {
+    display: flex;
+    margin-top: 112px;
+}
+
+.section_header_info__ellipse {
+    margin-left: -23px;
+}
+
+.section_header_info__text_ellipse {
+    color: #2B2626;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px; /* 134.615% */
+    margin-left: 15px;
+}
+
+.section_header_info__right {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_header_info__header_star1 {
+    position: relative;
+    left: 175px;
+    top: 75px;
+}
+
+.section_header_info__header_image6 {
+    position: relative;
+    left: 250px;
+    top: 117px;
+}
+
+.section_header_info__header_star2 {
+    position: relative;
+    left: 552px;
+    top: 201px;
+}
+
+.main_section01 {
+    background-color: #845EC2;
+    margin: 85px auto 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    min-height: 591px;
+    gap: 55px;
+    margin-top: 85px;
+
+}
+
+.main_section01__left {
+    margin-top: 73px;
+}
+
+.main_section01__left_title {
+    font-family: Montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    text-shadow: 0px 0px 5px #FFF;
+    color: #845EC2;
+}
+
+.main_section01__left_images {
+    padding-top: 37px;
+    display: flex;
+    gap: 33px;
+    justify-content: start;
+}
+
+.main_section01__left_images_img {
+    max-width: 189px;
+    max-height: 331px;
+}
+
+.main_section01__left_images_two {
+    position: relative;
+    top: -67px;
+}
+
+.main_section01__left_price{
+    display: flex;
+    gap: 28px;
+    width: 100%;
+}
+
+.main_section01__left_price_text {
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-left: 200px;
+}
+
+.main_section01__left_price_amount {
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 38px;  
+}
+
+.main_section01__right {
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+    margin-top: 146px;
+}
+
+.main_section01__right_title {
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.main_section01__right_text {
+    font-family: Montserrat;
+    color: #FFF;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+.main_section01__right_button_conteiner {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    gap: 49px;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.main_section01__right_button {
+
+}
+
+.main_section01__right_link {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1440px) {
+    .section_logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_logo__right{
+        margin-top: 30px;
+    }
+    .section_header_info {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 auto;
+    }
+    .section_header_info__right {
+        padding-top: 30px;
+    } 
+    .section_header_info__header_star1 {
+        left: 0px;
+        top: 0px;
+    }
+    .section_header_info__header_image6 {
+        left: 0px;
+        top: 0px;
+    }
+    .section_header_info__header_star2 {
+        left: 230px;
+        top: 0px;
+    }
+    .main_section01 {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .main_section01__left_images {
+        justify-content: center;
+    }
+    .main_section01__right {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .section_logo__left {
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_logo__left_logo{
+        margin-left: 0;
+    }
+    .section_logo__left_search_input {
+        margin-left: 0;
+    }
+    .section_logo__right_buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_logo__right_button_basket {
+        margin-left: 0;
+    }
+    .section_logo__right_button_login {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .section_nav__header-nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    .section_header_info__button_buy_now {
+        margin-top: 30px;
+    }
+    .section_header_info__header_star1 {
+        left: 114px;
+        top: 0px;
+    }
+
+    .section_header_info__header_image6 {
+        left: 0px;
+        top: 0px;
+    }
+
+    .section_header_info__header_star2 {
+        left: 114px;
+        top: 0px;
+    }
+    h1 {
+        font-size: 44px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    .section_header_info__sum_img {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .section_header_info__text_ellipse {
+        margin-left: 15px;
+    }
+    .main_section01 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_section01__left_title {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .main_section01__left_images {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main_section01__left_images_two {
+        top: 0px;
+    }
+    .main_section01__left_price {
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .main_section01__left_price_text {
+        margin-left: 0px;
+    }
+    .main_section01__right {
+        align-items: center;
+    }
+    .main_section01__right_title{
+        padding: 0 20px;
+        text-align: center;
+    }
+    .main_section01__right_text{
+        padding: 0 20px;
+    }
+    .main_section01__right_button_conteiner{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
