@@ -412,6 +412,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 7px;
+  position: relative;
 }
 .main_section02_03__products_block_rectangle1 {
   display: flex;
@@ -466,6 +467,18 @@ h1 {
   width: 100%;
   margin-top: 29px;
 }
+.main_section02_03__products_block_round {
+  position: absolute;
+  top: 13px;
+  left: 242px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
 
 @media (max-width: 1440px) {
   .section_logo {
@@ -505,6 +518,9 @@ h1 {
   }
   .main_section01__right {
     margin-top: 0px;
+  }
+  .main_section02_03__products {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 768px) {
@@ -598,5 +614,24 @@ h1 {
   .main_section01__right_button_conteiner {
     flex-direction: column;
     justify-content: center;
+  }
+  .main_section02_03__buttons {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 400px) {
+  .main_section02_03__products_block {
+    width: 300px;
+  }
+  .main_section02_03__products_block_rectangle1_rectangle2 {
+    width: 290px;
+  }
+  .main_section02_03__products_block_round {
+    top: 13px;
+    left: 212px;
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=style.css.map */
