@@ -1,5 +1,5 @@
-@import url(/./css/button.css);
-@import url(/./css/bgrclr.css);
+@import url(./button.css);
+@import url(./bgrclr.css);
 :root {
   --first_main_color: #10B981;
   --second_main_color: #ffffff;
