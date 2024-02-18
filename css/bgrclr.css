@@ -16,10 +16,24 @@
 
 .bgrclr_purple {
     background-color: #845EC2;
-    ;
 }
 
 .bgrclr_blue3 {
     background-color: #08BDBE;
-    ;
+}
+
+.bgrclr_black {
+    background-color: #111111;
+}
+
+.bgrclr_yellow {
+    background-color: #FFF500;
+}
+
+.bgrclr_blue4 {
+    background-color: #4484FF;
+}
+
+.textgreen {
+    color: #10B981;
 }
