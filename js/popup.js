@@ -9,8 +9,8 @@ if (!flagStoragePopup) {
     <section>
         <div class="welcome-popup">
             <div class="welcome-popup__wrapper">
-                <h3 class="title_primary__h3 welcome-popup__wrapper_text">Приветствую! Добро пожаловать на маркетплейс!</h3>
-                <button class="btns_rect welcome-popup__wrapper_btn">Закрыть и больше не показывать</button>
+                <h3 class="welcome-popup__wrapper_text">Приветствую! Добро пожаловать на маркетплейс!</h3>
+                <button class="btn_popup welcome-popup__wrapper_btn">Закрыть и больше не показывать</button>
             </div>
         </div>
     </section>`;
@@ -23,7 +23,7 @@ if (!flagStoragePopup) {
     close_btn.addEventListener('click', (event) => {
         localStorage.setItem(WELCOME_POPUP_KEY, JSON.stringify(true));
         popup.remove();
-        //  localStorage.clear();
+        //localStorage.clear();
     });
 }
 
