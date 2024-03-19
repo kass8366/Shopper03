@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/style.css">
+    <title>Shopper landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="mobile_menu">
+        <button class="mobile_menu__close">
+            x
+        </button>
+        <div class="section_logo__left_search_input mobile_menu_search">
+            <input type="text" placeholder="Search Items"  class="section_logo__left_search_text" id="search">
+            <label for="search"></label><div class="section_logo__left_rectangle_search"> </div></label>
+            <svg class="section_logo__left_svg_search" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                <path d="M18.9935 17.7563L15.0219 13.7847C16.022 12.5177 16.6249 10.9226 16.6249 9.1875C16.6249 5.08638 13.2885 1.75 9.18738 1.75C5.08625 1.75 1.74988 5.08638 1.74988 9.1875C1.74988 13.2886 5.08625 16.625 9.18738 16.625C10.9234 16.625 12.5176 16.023 13.7846 15.022L17.7563 18.9937C17.9269 19.1643 18.1509 19.25 18.3749 19.25C18.5989 19.25 18.8229 19.1643 18.9935 18.9937C19.3356 18.6515 19.3356 18.0985 18.9935 17.7563ZM3.49988 9.1875C3.49988 6.0515 6.05138 3.5 9.18738 3.5C12.3234 3.5 14.8749 6.0515 14.8749 9.1875C14.8749 12.3235 12.3234 14.875 9.18738 14.875C6.05138 14.875 3.49988 12.3235 3.49988 9.1875Z" fill="white"/>
+                </svg>
+        </div>
+        <nav class="mobile_menu__links">
+            <a class="mobile_menu__links_link" href="#Features">Features</a>
+            <a class="mobile_menu__links_link" href="#Products">Products</a>
+            <a class="mobile_menu__links_link" href="#Blog">Blog</a>
+            <a class="mobile_menu__links_link" href="#About">About</a>
+        </nav>
+
+    </section>
+    <header class="header">
+        <button class="header_button"> 
+            <div class="section_logo__left_logo">
+                <p class="section_logo__left_logo1">Shop</p>
+                <p class="section_logo__left_logo2">per</p>
+            </div>
+            <img src="../src/svg/burgerButton.svg" alt="menu" class="header_menu"> 
+        </button>
+        <div class="section_logo">
+            <div class="section_logo__left">
+                <div class="section_logo__left_logo">
+                    <p class="section_logo__left_logo1">Shop</p>
+                    <p class="section_logo__left_logo2">per</p>
+                </div>
+                <div class="section_logo__left_search_input">
+                    <input type="text" placeholder="Search Items"  class="section_logo__left_search_text" id="search">
+                    <label for="search"></label><div class="section_logo__left_rectangle_search"> </div></label>
+                    <svg class="section_logo__left_svg_search" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                        <path d="M18.9935 17.7563L15.0219 13.7847C16.022 12.5177 16.6249 10.9226 16.6249 9.1875C16.6249 5.08638 13.2885 1.75 9.18738 1.75C5.08625 1.75 1.74988 5.08638 1.74988 9.1875C1.74988 13.2886 5.08625 16.625 9.18738 16.625C10.9234 16.625 12.5176 16.023 13.7846 15.022L17.7563 18.9937C17.9269 19.1643 18.1509 19.25 18.3749 19.25C18.5989 19.25 18.8229 19.1643 18.9935 18.9937C19.3356 18.6515 19.3356 18.0985 18.9935 17.7563ZM3.49988 9.1875C3.49988 6.0515 6.05138 3.5 9.18738 3.5C12.3234 3.5 14.8749 6.0515 14.8749 9.1875C14.8749 12.3235 12.3234 14.875 9.18738 14.875C6.05138 14.875 3.49988 12.3235 3.49988 9.1875Z" fill="white"/>
+                        </svg>
+                </div>
+            </div>
+            <div class="section_logo__right">
+                <div class="section_logo__right_buttons">
+                    <button class="section_logo__right_button_basket">
+                        <svg class="section_logo__right_button_basket_svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.25002 7.25V7.13012C7.25002 4.96238 8.71763 3.06964 10.8171 2.52979C11.5931 2.33024 12.407 2.33024 13.183 2.52979C15.2824 3.06964 16.75 4.96238 16.75 7.13013V7.25H18.2511C18.8224 7.25 19.3073 7.66898 19.3901 8.23423L19.6088 9.72668C20.0393 12.6651 20.0393 15.6507 19.6088 18.5891C19.4008 20.0081 18.2565 21.1052 16.83 21.2531L16.2011 21.3183C13.4079 21.608 10.5921 21.608 7.79888 21.3183L7.17001 21.2531C5.74347 21.1052 4.59918 20.0081 4.39127 18.5891C3.96072 15.6507 3.96072 12.6651 4.39127 9.72668L4.60994 8.23423C4.69276 7.66898 5.17761 7.25 5.74889 7.25H7.25002ZM11.1906 3.98252C11.7216 3.84599 12.2784 3.84599 12.8094 3.98252C14.2459 4.3519 15.25 5.64693 15.25 7.13013V7.25H8.75002V7.13012C8.75002 5.64693 9.75417 4.3519 11.1906 3.98252ZM7.25002 8.75V11C7.25002 11.4142 7.5858 11.75 8.00002 11.75C8.41423 11.75 8.75002 11.4142 8.75002 11V8.75H15.25V11C15.25 11.4142 15.5858 11.75 16 11.75C16.4142 11.75 16.75 11.4142 16.75 11V8.75H17.9496L18.1246 9.94414C18.534 12.7384 18.534 15.5774 18.1246 18.3717C18.0162 19.1118 17.4193 19.684 16.6753 19.7611L16.0464 19.8264C13.356 20.1054 10.644 20.1054 7.95361 19.8264L7.32474 19.7611C6.5807 19.684 5.98386 19.1118 5.87542 18.3717C5.46601 15.5774 5.46601 12.7384 5.87542 9.94414L6.05039 8.75H7.25002Z" fill="#10B981"/>
+                          </svg>
+                        <p class="section_logo__right_button_basket_text"> 0 Items Added</p>
+                    </button>
+                    <button class="section_logo__right_button_login">
+                        <svg class="section_logo__right_button_login_svg" xmlns="http://www.w3.org/2000/svg" width="16" height="22" viewBox="0 0 16 22" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0.75C5.37665 0.75 3.25 2.87665 3.25 5.5C3.25 8.12335 5.37665 10.25 8 10.25C10.6234 10.25 12.75 8.12335 12.75 5.5C12.75 2.87665 10.6234 0.75 8 0.75ZM4.75 5.5C4.75 3.70507 6.20507 2.25 8 2.25C9.79493 2.25 11.25 3.70507 11.25 5.5C11.25 7.29493 9.79493 8.75 8 8.75C6.20507 8.75 4.75 7.29493 4.75 5.5Z" fill="white"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5 11.75C2.37665 11.75 0.25 13.8766 0.25 16.5C0.25 19.1234 2.37665 21.25 5 21.25H11C13.6234 21.25 15.75 19.1234 15.75 16.5C15.75 13.8766 13.6234 11.75 11 11.75H5ZM1.75 16.5C1.75 14.7051 3.20507 13.25 5 13.25H11C12.7949 13.25 14.25 14.7051 14.25 16.5C14.25 18.2949 12.7949 19.75 11 19.75H5C3.20507 19.75 1.75 18.2949 1.75 16.5Z" fill="white"/>
+                            </svg>
+                        <p class="section_logo__right_button_login_text">Login or Sign Up</p>
+                    </button>
+                </div>
+            </div> 
+        </div>
+        <div class="section_nav">
+            <nav class="section_nav__header-nav">
+                <a class="section_nav__header-nav-text" href="#Features">Features</a>
+                <a class="section_nav__header-nav-text" href="#Products">Products</a>
+                <a class="section_nav__header-nav-text" href="#Blog">Blog</a>
+                <a class="section_nav__header-nav-text" href="#About">About</a>
+            </nav>
+        </div>
+        <div class="section_header_info">
+            <div class="section_header_info__left">
+                <h1>Discover Our Latest  Products</h1>
+                <p class="section_header_info__text_left">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a product</p>
+                <button class="section_header_info__button_buy_now button">Buy Now</button>
+                <div class="section_header_info__sum_img">
+                    <div>
+                        <img src="../src/svg/1.svg" alt="ellipse">      
+                        <img class="section_header_info__ellipse" src="../src/svg/2.svg" alt="ellipse">   
+                        <img class="section_header_info__ellipse" src="../src/svg/3.svg" alt="ellipse">   
+                        <img class="section_header_info__ellipse" src="../src/svg/4.svg" alt="ellipse">  
+                    </div>
+                    <p class="section_header_info__text_ellipse">15k Well<br/>Reviews</p>     
+                </div>
+            </div>
+            <div class="section_header_info__right">
+                <div>
+                    <svg class="section_header_info__header_star1" xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                        <path d="M26.5 0L33.6574 19.3426L53 26.5L33.6574 33.6574L26.5 53L19.3426 33.6574L0 26.5L19.3426 19.3426L26.5 0Z" fill="#FFD600"/>
+                    </svg>
+                    <div class="section_header_info__header_image6">
+                        <img  src="../src/img/image6.png" alt="image_6"> 
+                    </div>
+                    <svg class="section_header_info__header_star2" xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 53 53" fill="none">
+                        <path d="M26.5 0L33.6574 19.3426L53 26.5L33.6574 33.6574L26.5 53L19.3426 33.6574L0 26.5L19.3426 19.3426L26.5 0Z" fill="#FFD600"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main_section01" id="Features">
+            <!-- левый блок-->
+            <div class="main_section01__left">
+                <p class="main_section01__left_title">Apple wireless Airpod</p>
+                <div class="main_section01__left_images">
+                    <img class="main_section01__left_images_img" src="../src/img/Rectangle15.png" alt="headphones">
+                    <img class="main_section01__left_images_two main_section01__left_images_img" src="../src/img/Rectangle16.png" alt="headpgones">
+                    <img class="main_section01__left_images_img" src="../src/img/Rectangle17.png" alt="headphones">
+                </div>
+                <div class="main_section01__left_price">
+                    <div class="main_section01__left_price_text">Price :</div>
+                    <div class="main_section01__left_price_amount">$45 .99</div>
+                </div>
+            </div>
+            <!-- правый блок-->
+            <div class="main_section01__right">
+                <p class="main_section01__right_title">Our Featured Products</p>
+                <p class="main_section01__right_text">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a product</p>
+                <div class="main_section01__right_button_conteiner">
+                <button class="main_section01__right_button button">Add to cart</button>
+                <a class="main_section01__right_link">View more</a>
+                </div>
+            </div>
+        </section>
+        <section class="main_section02_03" id="Products">
+            <p class="main_section02_03__title title44px">Top Sellers</p>
+            <div class="main_section02_03__buttons">
+                <button class="main_section02_03__buttons_btn_oval active">Top Picks</button>
+                <button class="main_section02_03__buttons_btn_oval">Watches</button>
+            </div>
+            <div class="main_section02_03__products">
+                <div class="main_section02_03__products_block"> 
+                    <div class="main_section02_03__products_block_rectangle1">
+                        <img class="main_section02_03__products_block_rectangle1_img" src="../src/img/headphones 01.png" alt="headphones">
+                        <div class="main_section02_03__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03__products_block__rectangle1_rectangle2_text">Boat Rockerz 333</p>
+                            <div class="main_section02_03__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03__products_block_rectangle1_rectangle2_price">$20</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03__products_block_button button">Add to cart</button>
+                    <button class="main_section02_03__products_block_round bgrclr_green">Save 60%</button>
+                </div>
+                <div class="main_section02_03__products_block"> 
+                    <div class="main_section02_03__products_block_rectangle1 bgrclr_blue">
+                        <img class="main_section02_03__products_block_rectangle1_img" src="../src/img/headphones 02.png" alt="headphones">
+                        <div class="main_section02_03__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03__products_block__rectangle1_rectangle2_text">Boat Rockerz 234</p>
+                            <div class="main_section02_03__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03__products_block_rectangle1_rectangle2_price">$40</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03__products_block_button button">Add to cart</button>
+                </div>
+                <div class="main_section02_03__products_block"> 
+                    <div class="main_section02_03__products_block_rectangle1 bgrclr_pink">
+                        <img class="main_section02_03__products_block_rectangle1_img" src="../src/img/headphones 03.png" alt="headphones">
+                        <div class="main_section02_03__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03__products_block__rectangle1_rectangle2_text">Boat Rockerz 323</p>
+                            <div class="main_section02_03__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03__products_block_rectangle1_rectangle2_price">$30</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03__products_block_button button">Add to cart</button>
+                    <button class="main_section02_03__products_block_round bgrclr_purple">Save 40%</button>
+                </div>
+            </div>
+        </section>
+        <section class="main_section02_03_v2">
+            <p class="main_section02_03_v2__title">Trending Earphones</p>
+            <div class="main_section02_03_v2__buttons">
+                <button class="main_section02_03_v2__buttons_btn_oval active">Earbuds</button>
+                <button class="main_section02_03_v2__buttons_btn_oval">Wireless</button>
+                <button class="main_section02_03_v2__buttons_btn_oval">Wired</button>
+            </div>
+            <div class="main_section02_03_v2__products">
+                <div class="main_section02_03_v2__products_block"> 
+                    <div class="main_section02_03_v2__products_block_rectangle1">
+                        <img class="main_section02_03_v2__products_block_rectangle1_img" src="../src/img/headphones 04.png" alt="headphones">
+                        <div class="main_section02_03_v2__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03_v2__products_block__rectangle1_rectangle2_text">Boat Rockerz 333</p>
+                            <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03_v2__products_block_rectangle1_rectangle2_price">$20</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03_v2__products_block_button button">Add to cart</button>
+                    <button class="main_section02_03_v2__products_block_round bgrclr_green">Save 60%</button>
+                </div>
+                <div class="main_section02_03_v2__products_block"> 
+                    <div class="main_section02_03_v2__products_block_rectangle1">
+                        <img class="main_section02_03_v2__products_block_rectangle1_img" src="../src/img/headphones 05.png" alt="headphones">
+                        <div class="main_section02_03_v2__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03_v2__products_block__rectangle1_rectangle2_text">Boat Rockerz 234</p>
+                            <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03_v2__products_block_rectangle1_rectangle2_price">$40</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03_v2__products_block_button button">Add to cart</button>
+                </div>
+                <div class="main_section02_03_v2__products_block"> 
+                    <div class="main_section02_03_v2__products_block_rectangle1 bgrclr_blue2">
+                        <img class="main_section02_03_v2__products_block_rectangle1_img" src="../src/img/headphones 06.png" alt="headphones">
+                        <div class="main_section02_03_v2__products_block_rectangle1_rectangle2">
+                            <p class="main_section02_03_v2__products_block__rectangle1_rectangle2_text">Boat Rockerz 323</p>
+                            <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating">
+                                <div class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                    <img src="../src/svg/StarRed.svg" alt="star">
+                                </div>
+                                <h class="main_section02_03_v2__products_block_rectangle1_rectangle2_rating_reviews">75 Reviews</h>
+                            </div>
+                            <p class="main_section02_03_v2__products_block_rectangle1_rectangle2_price">$30</p>
+                        </div>
+                    </div>
+                    <button class="main_section02_03_v2__products_block_button button">Add to cart</button>
+                    <button class="main_section02_03_v2__products_block_round bgrclr_blue3">Save 40%</button>
+                </div>
+            </div>
+        </section>
+        <section class="main_section04" id="Blog">
+            <p class="main_section04__title">New Launches</p>
+            <div class="main_section04__products bgrclr_purple">
+                <button class="main_section04__products_button bgrclr_green"><</button>
+                <div class="main_section04__products_info">
+                    <div class="main_section04__products_info_left">
+                        <img class="main_section04__products_info_left_img1" src="../src/img/headphones07.png" alt="headphones">
+                        <img class="main_section04__products_info_left_img2" src="../src/img/headphones08.png" alt="headphones">
+                    </div>
+                    <div class="main_section04__products_info_right">
+                        <p class="main_section04__products_info_right_title">Airdrop 500 Anc</p>
+                        <p class="main_section04__products_info_right_text">Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a product ... Read More</p>
+                        <div class="main_section04__products_info_right_price">
+                            <div class="main_section04__products_info_right_price_text">Price :</div>
+                            <div class="main_section04__products_info_right_price_amount">$45 .99</div>
+                        </div>
+                        <div class="main_section04__products_info_right_container">
+                            <button class="main_section04__products_info_right_container_button bgrclr_black"></button>
+                            <button class="main_section04__products_info_right_container_button bgrclr_yellow"></button>
+                            <button class="main_section04__products_info_right_container_button bgrclr_blue4"></button>
+                        </div>
+                        <div class="main_section04__products_info_right_container2">
+                            <button class="main_section04__products_info_right_container2_button button">Add to cart</button>
+                            <a class="main_section04__products_info_right_container2_link">View more</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="main_section04__products_button bgrclr_green">></button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"  id="About">
+        <div class="footer__section01">
+            <p class="footer__section01_text">Ready to get started?</p>
+            <button class="footer__section01_button">Get started</button>
+        </div>
+        <div class="footer__section02">
+            <div class="footer__section02_newsletter">
+                <p class="footer__section02_newsletter_text">Subscribe to our Website</p>
+                <div class="footer__section02_newsletter_email">
+                    <input type="text" placeholder="Email addres"  class="footer__section02_newsletter_email_text" id="search">
+                    <button class="footer__section02_newsletter_email_button bgrclr_green">></button>
+                </div>
+            </div>
+            <div class="footer__section02_services">
+                <p>Services</p>
+                <a href="#">Email Marketing</a>
+                <a href="#">Campaigns</a>
+                <a href="#">Branding</a>
+                <a href="#">Offline</a>
+            </div>
+            <div class="footer__section02_about">
+                <p>About</p>
+                <a href="#">Our Story</a>
+                <a href="#">Benefits</a>
+                <a href="#">Team</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="footer__section02_help">
+                <p>Help</p>
+                <a href="#">FAQs</a>
+                <a href="#">Contact Us</a>
+                <a href="#"></a>
+            </div>
+        </div>
+        <div class="footer__section03">
+            <div class="footer__section03_left">
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Policy</a>
+
+            </div>
+            <div class="footer__section03_right">
+                <img src="../src/img/facebook.png" alt="facebook">
+                <img src="../src/img/twitter.png" alt="twitter">
+                <img src="../src/img/instagram.png" alt="instagram">
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="./js/popup.js"></script>
+    <script src="./js/js.js"></script>
+    <script src="./js/tabs.js"></script> 
+    <script src="../build/bandle.js"></script>-->
+</body>
+</html>
